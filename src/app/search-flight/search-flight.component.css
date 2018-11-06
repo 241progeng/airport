@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2em;
+  text-align: center;
+}
+.block {
+  display: inline-block;
+}
+
+button {
+	background-color:rgb(151, 173, 255);
+	border:1px solid rgb(151, 173, 255);
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1em;
+	padding:11px 21px;
+	text-decoration:none;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  width: 300px;
+  height: 50px;
+}
+button:hover {
+	background-color:rgb(0, 0, 255);
+	border: 1px solid rgb(0, 0, 255);
+}
+
+.search-block {
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+form {
+  font: "Times New Roman", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size: 22px;
+}
+
+form input {
+  font-size: inherit;
+}
+
+.left-input {
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.right-input {
+  display: inline-block;
+}
+
+input:not([type="checkbox"]), textarea {
+  display: block;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #ffffff;
+  opacity: 0.7;
+  font-style: italic;
+  color: #000000;
+  
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input::placeholder {
+  color: #000000;
+}
+
+
+
+input[type="checkbox"] {
+width: 24px;
+height: 24px;
+opacity: 0.8;
+}
+
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: blue;
+}
+
+textarea {
+  border: 2px solid #000000;
+  resize: vertical;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
